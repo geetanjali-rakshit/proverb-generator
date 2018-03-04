@@ -4,7 +4,7 @@ import pronouncing
 import random
 import nltk
 import csv
-from gensim.models import Word2Vec
+from gensim.models import KeyedVectors
 import gzip
 import os
 
