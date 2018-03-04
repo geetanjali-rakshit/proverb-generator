@@ -188,7 +188,7 @@ if __name__ == "__main__":
 
     # proverb = "Money doesn't grow on trees."
 
-    w2vecmodel = "GoogleNews-vectors-negative300.bin"
+    w2vecmodel = "resources" + os.sep + "GoogleNews-vectors-negative300.bin"
     word_vectors = KeyedVectors.load_word2vec_format(w2vecmodel, binary=True)
 
     # print(word_vectors.most_similar(positive=['woman','king'],negative=['man'])[0][0])
