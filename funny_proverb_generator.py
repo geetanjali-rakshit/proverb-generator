@@ -201,7 +201,7 @@ if __name__ == "__main__":
     for filename in ["top_proverbs.txt", "proverbs578.txt"]:
         datafilepath = "data" + os.sep + filename
         for transformation in range(1, 3):
-            for criteria in range(0, 1):
+            for criteria in range(0, 2):
                 getModifiedProverbs(datafilepath, criteria, transformation)
             generateCSV("data" + os.sep + filename,
                         "results" + os.sep + filename.split(".")[0] + "_modified_criteria_0_" + str(
