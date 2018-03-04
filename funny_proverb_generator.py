@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+#Comment out word2vec to run locally. Run everything on server
+
 import pronouncing
 import random
 import nltk
